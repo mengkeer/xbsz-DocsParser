@@ -66,6 +66,7 @@ public class Main {
             }
 
         }
+        if (title.equals(""))   return  row;
 
         return title;
     }
